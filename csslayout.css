@@ -1,0 +1,38 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/* this is header part */
+nav {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    padding: 0 40px;
+}
+.logo-css {
+    width: 300px;
+    padding: 30px 150px ;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+.navdepart{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}
+.navdepart a {
+    text-decoration: none;
+    margin: 30px;
+
+}
+.logo-doc{
+    width: 50px;
+    padding: 30px 600px ;
+    margin: 20px;
+}
